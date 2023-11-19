@@ -7,8 +7,8 @@ export default hopeTheme(
     hostname: "https://your.domain",
 
     author: {
-      name: "Mr.Hope",
-      url: "https://mister-hope.com",
+      name: "11来了",
+      // url: "https://mister-hope.com",
     },
 
     iconAssets: "fontawesome-with-brands",
@@ -28,7 +28,7 @@ export default hopeTheme(
 
         footer: "Default footer",
 
-        displayFooter: true,
+        displayFooter: false,
 
         metaLocales: {
           editLink: "Edit this page on GitHub",
