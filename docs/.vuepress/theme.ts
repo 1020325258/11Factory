@@ -13,10 +13,9 @@ export default hopeTheme(
 
     iconAssets: "fontawesome-with-brands",
 
-    logo: "/logo.svg",
-
-    repo: "vuepress-theme-hope/online-demo",
-
+    logo: "/assets/image/logo.jpg",
+    repo: "1020325258/11Factory",
+    docsBranch: "master",
     docsDir: "docs",
 
     locales: {
