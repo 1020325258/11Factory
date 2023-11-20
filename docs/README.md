@@ -7,7 +7,7 @@ heroImage: /assets/image/logo.jpg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:
   # background-attachment: fixed
-heroText: 11来了代码作坊
+heroText: 11来了
 tagline: 娱乐结合🐟
 # actions:
 #   - text: CSDN
