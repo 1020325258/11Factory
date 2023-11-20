@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
   dest: "./dist",
-
+  port: 3000,
   locales: {
     "/": {
       lang: "zh-CN",
