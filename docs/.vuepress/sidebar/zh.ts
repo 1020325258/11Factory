@@ -1,62 +1,59 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/notes/后端开发/Redis/": [
+  "/notes/后端开发/": [
     // "",
     {
       text: "Redis",
       icon: "laptop-code",
-      prefix: "",
+      collapsible: false,
+      // prefix: "/notes/后端开发",
       // link: "后端开发/Redis/RedisCore/RedisCore.md",
       children: [
         {
           text: "Redis基础",
-          link: "RedisCore/RedisCore.md",
+          link: "Redis/RedisCore/RedisCore.md",
         },
         {
           text: "Redis订阅发布",
-          link: "Redis实现订阅发布/Redis实现订阅发布.md"
+          link: "Redis/Redis实现订阅发布/Redis实现订阅发布.md"
+        },
+        {
+          text: "Redis深入理解",
+          link: "Redis/Redis深入理解/Redis深入理解.md"
         }
       ]
-      // collapsible: false,
-      // children: "structure",
     },
-  ],
-  "/notes/后端开发/Netty/": [
     {
       text: "Netty",
       icon: "laptop-code",
-      prefix: "/notes/后端开发/Netty/",
+      // prefix: "/notes/后端开发",
       children: [
         {
           text: "Netty基础",
-          link: "Netty.md"
+          link: "Netty/Netty.md"
         }
       ]
-    }
-  ],
-  "/notes/后端开发/MySQL/": [
+    },
     {
       text: "MySQL",
       icon: "laptop-code",
-      prefix: "/notes/后端开发/MySQL/",
+      // prefix: "/notes/后端开发/MySQL/",
       children: [
         {
           text: "MySQL基础",
-          link: "MySQL.md"
+          link: "MySQL/MySQL.md"
         }
       ]
-    }
-  ],
-  "/notes/后端开发/MessageQueue/": [
+    },
     {
       text: "消息队列",
       icon: "laptop-code",
-      prefix: "/notes/后端开发/MessageQueue/",
+      // prefix: "/notes/后端开发/MessageQueue/",
       children: [
         {
           text: "RocketMQ",
-          link: "RocketMQ.md"
+          link: "MessageQueue/RocketMQ.md"
         }
       ]
     }
@@ -67,6 +64,14 @@ export const zhSidebar = sidebar({
       icon: "laptop-code",
       prefix: "/notes/后端开发/Java/多线程",
       children: [
+        {
+          text: "Java并发编程",
+          link: "Java并发编程/Java并发编程.md"
+        },
+        {
+          text: "AQS 源码详细解析",
+          link: "Java并发编程/一行一行源码分析清楚AbstractQueuedSynchronizer.md"
+        },
         {
           text: "CompletableFuture原理与实践",
           link: "CompletableFuture原理与实践/CompletableFuture原理与实践.md"
